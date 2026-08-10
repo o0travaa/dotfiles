@@ -1,7 +1,7 @@
 # dotfiles
 
 My personal custom Hyprland environment configured purely in Lua.
-![Hyprland Preview](assets/.png)
+![Hyprland Preview](assets/Screenshot_2026-08-10_14-10-18.png)
 
 ## System Features
 * Window Manager: Hyprland (Lua config)
