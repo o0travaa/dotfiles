@@ -10,7 +10,6 @@ My personal custom Hyprland environment configured purely in Lua.
 * Bar: Waybar
 * Launcher: Wofi
 * Logout Menu: Wlogout
-* Automounting: Udiskie
 * Screenshots: Grim + Wl-clipboard
 
 ## Installation
