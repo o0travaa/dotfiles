@@ -54,3 +54,4 @@ rm -rf ~/.config/nvim/.git
 | `SUPER + SHIFT + S` | Move Window to Special Workspace |
 | `Fn / Media Keys` | Control Volume and Brightness |
 
+> Hello everyone, and thank you from the bottom of my heart for stopping by. I am just a 13-year-old developer who poured months of passion, endless nights, and absolute dedication into crafting this environment. This project is my canvas, and I truly hope you appreciate the heart and soul put into every single line of code.
