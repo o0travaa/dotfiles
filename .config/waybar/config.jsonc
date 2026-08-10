@@ -1,0 +1,64 @@
+{
+	"layer": "top",
+	"position": "top",
+	"height": 30,
+	"spacing": 4,
+	"margin-top": 7,
+	"margin-left": 6,
+	"margin-right": 6,
+	"height": 40,
+
+	"modules-left": [
+		"custom/logo",
+	    "hyprland/workspaces",
+	    "custom/space",
+	    "clock"
+	],
+	"modules-center": [
+	    "hyprland/window"
+	],
+	"modules-right": [
+		"cpu",
+		"custom/space",
+		"memory",
+		"custom/space",
+		"temperature"
+	],
+	"hyprland/window": {
+	    "format": "{title}",
+	    "separate-outputs": true,
+	    "max-length": 50,
+	    "rewrite": {
+	        "^$": "󰣇 Arch Linux",
+	    }
+	},
+	"hyprland/workspaces": {
+	    "format": "",
+	    "on-click": "activate",
+	    "sort-by-number": true
+	},
+	"custom/logo": {
+		"format": "󰣇 ",
+		"on-click": "wlogout"
+	},
+	"custom/space": {
+		"format": " | "
+	},
+	"cpu": {
+	    "interval": 2,
+	    "format": " {usage}%",
+	    "tooltip": false
+	},
+
+	"memory": {
+	    "interval": 2,
+	    "format": " {}%",
+	    "tooltip": false
+	},
+
+	"temperature": {
+	    "interval": 2,
+	    "format": " {temperatureC}°C",
+	    "format-critical": " {temperatureC}°C"
+	}
+}
