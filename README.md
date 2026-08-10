@@ -21,6 +21,14 @@ chmod +x install.sh
 ./install.sh
 ```
 
+## Optional Neovim Setup
+
+```bash
+sudo pacman -S nvim
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+```
+
 ## Keybindings
 
 | Keybinding | Action |
